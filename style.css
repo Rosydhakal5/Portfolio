@@ -1,0 +1,203 @@
+
+.nav{
+    background-color: transparent;
+    height: 30px;
+    font-size: large;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+    align-items:center;
+    border-radius: 20px;
+
+}
+
+.links{
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0px 40px 0px 0px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 3px 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.active{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 6px;
+    transform: scale(1.2);
+    padding:0 20px;
+
+}
+
+a:hover{
+    background-color: whitesmoke;
+    color: green;
+    border-radius: 6px;
+    padding:0 20px;
+
+}
+ 
+
+.text{
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    margin-top: ;
+    padding:10px;
+    height:500px;
+    justify-content: center;
+    background-image: url(header.jpg);
+    background-blend-mode: lighten;
+    
+}
+
+span{
+ color: green;
+}
+
+.text:hover{
+    transform: scale(1.0);
+}
+.global-container{
+    background-color: whitesmoke;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    border-radius: 30px;
+    gap:40px;
+}
+
+.button-area{
+    padding: 0 40px 0 0;
+}
+.about-me{
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    font: 1em sans-serif;
+}
+
+ul{
+    list-style-type:circle;
+}
+
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    color: Green;
+}
+
+.projects{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap:20px;
+    flex-wrap: wrap;
+    flex-grow: 3;
+    background-color: whitesmoke;
+    padding:20px;
+
+}
+
+.calculator{
+    border: transparentsolid 1px;
+    width: 50%;
+    height: 20em;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.calculator:hover{
+    transform: scale(1.2);
+}
+
+
+.travel-blog{
+    border: transparent solid 1px;
+    width: 40%;
+    height: 20em;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+.travel-blog:hover{
+    transform: scale(1.2);
+}
+
+.portfolio{
+border: transparent solid 1px;
+width: 40%;
+height: 20em;
+border-radius: 20px;
+background-color: whitesmoke;
+}
+
+.portfolio:hover{
+    transform: scale(1.2);
+}
+
+.more{
+    border: transparent solid 1px;
+    width: 40%;
+    height: 20em;
+    border-radius: 20px;
+    background-color: white;
+}
+.more:hover{
+    transform: scale(1.2);
+}
+
+.projects h1{
+    display: flex;
+    justify-content: center;
+}
+
+.projects button{
+   width: 30%;
+   border-radius: 10px;
+   color:white;
+   background-color: palevioletred;
+   padding: 4px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+ }
+
+ .projects button:hover{
+    background-color: green;
+    color: aliceblue;
+    transform: scale(1.3);
+    cursor:copy;
+ }
+ 
+.image{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 0 20px 0;
+    gap:10px;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: grey;
+}
