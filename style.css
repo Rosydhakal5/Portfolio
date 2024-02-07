@@ -58,9 +58,9 @@ a:hover{
 a.no-style:hover{
     padding: 0px;
 }
-.logo{
+/* .logo{
     margin:35px 40px 20px 20px;
-}
+} */
 
 .text{
     display: flex;
