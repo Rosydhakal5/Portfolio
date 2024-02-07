@@ -3,19 +3,33 @@
     margin: 0px;
     padding: 0px;
 }
+@media (max-width:760px) {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    'navbar'
+    ''
+    ''
+    ''
+    ''
+    ''
+    ;
+
+}
 
 .nav{
     background-color: transparent;
     height: 30px;
     font-size: large;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-`between;
     margin-bottom: 20px;
     width: 100%;
     align-items:center;
     border-radius: 20px;
     position:fixed;
     z-index: 1000;
+    grid-area: navbar;
 }
 
 .links{
